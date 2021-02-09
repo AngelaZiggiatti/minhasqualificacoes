@@ -5,8 +5,11 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <p>Brasil <%= title %></p>
+    <input type="text" id="idcliente">
+    <button onclick=buscarCliente()>"Buscar Cliente"</button>
+    <div id="dados"></div>
+    <br><br>
+    <button onclick="listarTodos()">Listar todos</button>
+    <div id="lista"></div>
   </body>
 </html>
